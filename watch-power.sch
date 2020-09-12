@@ -1,0 +1,285 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BQ24230RGTR:BQ24230 IC1
+U 1 1 5F5A924C
+P 2850 2050
+F 0 "IC1" H 2850 2715 50  0000 C CNN
+F 1 "BQ24230" H 2850 2624 50  0000 C CNN
+F 2 "BQ24230RGTR:QFN50P300X300X100-17N-D" H 2850 2050 50  0001 C CNN
+F 3 "" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMT-4023S-SMT-TR:CMT-4023S-SMT-TR LS1
+U 1 1 5F5A9B3D
+P 9500 900
+F 0 "LS1" H 10128 896 50  0000 L CNN
+F 1 "CMT-4023S-SMT-TR" H 10128 805 50  0000 L CNN
+F 2 "CMT-4023S" H 10150 1000 50  0001 L CNN
+F 3 "http://www.cui.com/product/resource/cmt-4023s-smt.pdf" H 10150 900 50  0001 L CNN
+F 4 "Speakers & Transducers Buzzer 4mm sq 4kHz 3V SMT" H 10150 800 50  0001 L CNN "Description"
+F 5 "" H 10150 700 50  0001 L CNN "Height"
+F 6 "490-CMT-4023S-SMT-TR" H 10150 600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMT-4023S-SMT-TR?qs=qCxwlXJ4fnxjBoOShJwOAQ%3D%3D" H 10150 500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Devices" H 10150 400 50  0001 L CNN "Manufacturer_Name"
+F 9 "CMT-4023S-SMT-TR" H 10150 300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV2603RUNR:DRV2603RUNR IC3
+U 1 1 5F5AA3A4
+P 8100 3800
+F 0 "IC3" H 8800 4681 50  0000 C CNN
+F 1 "DRV2603RUNR" H 8800 4590 50  0000 C CNN
+F 2 "QFN50P200X200X80-10N-D" H 9350 4300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/drv2603" H 9350 4200 50  0001 L CNN
+F 4 "Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM" H 9350 4100 50  0001 L CNN "Description"
+F 5 "0.8" H 9350 4000 50  0001 L CNN "Height"
+F 6 "595-DRV2603RUNR" H 9350 3900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV2603RUNR?qs=l6ZoeTYLMwNhoGl8Q31%2FaA%3D%3D" H 9350 3800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 9350 3700 50  0001 L CNN "Manufacturer_Name"
+F 9 "DRV2603RUNR" H 9350 3600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS63030DSKR:TPS63030 IC4
+U 1 1 5F5AABF5
+P 6200 2050
+F 0 "IC4" H 6200 2665 50  0000 C CNN
+F 1 "TPS63030" H 6200 2574 50  0000 C CNN
+F 2 "TPS63030DSKR:SON50P250X250X80-11N-D" H 6200 1950 50  0001 C CNN
+F 3 "" H 6200 1950 50  0001 C CNN
+	1    6200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LC709203FQH-01TWG:LC709203FQH-01TWG IC2
+U 1 1 5F5AB6B2
+P 4200 3750
+F 0 "IC2" H 4900 4015 50  0000 C CNN
+F 1 "LC709203FQH-01TWG" H 4900 3924 50  0000 C CNN
+F 2 "SON65P400X300X80-9N" H 5450 3850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/LC709203F-D.PDF" H 5450 3750 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - LC709203FQH-01TWG - BATTERY FUEL GAUGE, LI-ION, WDFN-8" H 5450 3650 50  0001 L CNN "Description"
+F 5 "0.8" H 5450 3550 50  0001 L CNN "Height"
+F 6 "863-LC709203FQH01TWG" H 5450 3450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/LC709203FQH-01TWG?qs=abmNkq9no6DMvrRCbcyD%2FQ%3D%3D" H 5450 3350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 5450 3250 50  0001 L CNN "Manufacturer_Name"
+F 9 "LC709203FQH-01TWG" H 5450 3150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_47346-0001:47346-0001 J1
+U 1 1 5F5AC2AC
+P 1400 2350
+F 0 "J1" V 2065 2692 50  0000 C CNN
+F 1 "47346-0001" V 1974 2692 50  0000 C CNN
+F 2 "47346-0001" H 1950 3050 50  0001 L CNN
+F 3 "http://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 1950 2950 50  0001 L CNN
+F 4 "Micro USB B Receptacle Bottom Mount Assy Molex Right Angle SMT Type B Version 2.0 Micro USB Connector Socket, 30 V ac, 1A 47352 MICRO-USB" H 1950 2850 50  0001 L CNN "Description"
+F 5 "" H 1950 2750 50  0001 L CNN "Height"
+F 6 "538-47346-0001" H 1950 2650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/47346-0001?qs=c2CV6XM0DweJBWaSeyWeCw%3D%3D" H 1950 2550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 1950 2450 50  0001 L CNN "Manufacturer_Name"
+F 9 "47346-0001" H 1950 2350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1400 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Vibramotor:Vibramotor M1
+U 1 1 5F5AC8A5
+P 10050 3900
+F 0 "M1" H 10050 4206 50  0000 C CNN
+F 1 "Vibramotor" H 10050 4115 50  0000 C CNN
+F 2 "Vibramotor:Vibramotor" H 10050 3900 50  0001 C CNN
+F 3 "" H 10050 3900 50  0001 C CNN
+	1    10050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F5ADC34
+P 1900 2450
+F 0 "C5" H 2015 2496 50  0000 L CNN
+F 1 "4.7uF" H 2015 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 2300 50  0001 C CNN
+F 3 "~" H 1900 2450 50  0001 C CNN
+	1    1900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F5ADD9C
+P 1850 1800
+F 0 "C1" H 1965 1846 50  0000 L CNN
+F 1 "1uF" H 1965 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1888 1650 50  0001 C CNN
+F 3 "~" H 1850 1800 50  0001 C CNN
+	1    1850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F5AE00E
+P 1950 2150
+F 0 "R1" V 1743 2150 50  0000 C CNN
+F 1 "R" V 1834 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1880 2150 50  0001 C CNN
+F 3 "~" H 1950 2150 50  0001 C CNN
+	1    1950 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F5B1604
+P 5350 1800
+F 0 "C4" H 5465 1846 50  0000 L CNN
+F 1 "10uF" H 5465 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5388 1650 50  0001 C CNN
+F 3 "~" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F5B1CDE
+P 6800 1450
+F 0 "R4" H 6870 1496 50  0000 L CNN
+F 1 "R" H 6870 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 1450 50  0001 C CNN
+F 3 "~" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F5B28DF
+P 7800 1900
+F 0 "C2" H 7915 1946 50  0000 L CNN
+F 1 "10uF" H 7915 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 1750 50  0001 C CNN
+F 3 "~" H 7800 1900 50  0001 C CNN
+	1    7800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F5B2B74
+P 7350 1850
+F 0 "C3" H 7465 1896 50  0000 L CNN
+F 1 "10uF" H 7465 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 1700 50  0001 C CNN
+F 3 "~" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5F5B2CCA
+P 4950 1950
+F 0 "C7" H 5065 1996 50  0000 L CNN
+F 1 "0.1uF" H 5065 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 1800 50  0001 C CNN
+F 3 "~" H 4950 1950 50  0001 C CNN
+	1    4950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F5B326C
+P 7000 1900
+F 0 "R5" H 7070 1946 50  0000 L CNN
+F 1 "R" H 7070 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 1900 50  0001 C CNN
+F 3 "~" H 7000 1900 50  0001 C CNN
+	1    7000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F5B7D16
+P 3700 1800
+F 0 "C6" H 3815 1846 50  0000 L CNN
+F 1 "4.7uF" H 3815 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3738 1650 50  0001 C CNN
+F 3 "~" H 3700 1800 50  0001 C CNN
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F5BDE1B
+P 3150 2850
+F 0 "R3" H 3080 2804 50  0000 R CNN
+F 1 "R" H 3080 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 2850 50  0001 C CNN
+F 3 "~" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F5BEE07
+P 2900 2850
+F 0 "R2" H 2830 2804 50  0000 R CNN
+F 1 "R" H 2830 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 2850 50  0001 C CNN
+F 3 "~" H 2900 2850 50  0001 C CNN
+	1    2900 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L LPS3015-103MRB:LPS3015-103MRB L1
+U 1 1 5F5DDBA2
+P 5300 950
+F 0 "L1" H 5700 1175 50  0000 C CNN
+F 1 "LPS3015-103MRB" H 5700 1084 50  0000 C CNN
+F 2 "LPS3015" H 5950 1000 50  0001 L CNN
+F 3 "https://www.coilcraft.com/pdfs/lps3015.pdf" H 5950 900 50  0001 L CNN
+F 4 "COILCRAFT - LPS3015-103MRB - INDUCTOR, SHLD, 10UH, 20%, 0.55A, SMD" H 5950 800 50  0001 L CNN "Description"
+F 5 "" H 5950 700 50  0001 L CNN "Height"
+F 6 "994-LPS3015-103MRB" H 5950 600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Coilcraft/LPS3015-103MRB?qs=QQJxVsr8EGaKHQsQv461ew%3D%3D" H 5950 500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "COILCRAFT" H 5950 400 50  0001 L CNN "Manufacturer_Name"
+F 9 "LPS3015-103MRB" H 5950 300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 950 
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 700  0    50   ~ 0
+NEM PONT EZ LESZ, DE UGYANEZ A FOOTPRINTJE
+$Comp
+L 1-1734592-4:1-1734592-4 J2
+U 1 1 5F5E2935
+P 6550 4750
+F 0 "J2" H 7000 5015 50  0000 C CNN
+F 1 "1-1734592-4" H 7000 4924 50  0000 C CNN
+F 2 "117345924" H 7300 4850 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734592%7FC%7Fpdf%7FEnglish%7FENG_CD_1734592_C_C_1734592.pdf%7F1-1734592-4" H 7300 4750 50  0001 L CNN
+F 4 "14W SMT r/a  bott contact 0.5mm FFC conn" H 7300 4650 50  0001 L CNN "Description"
+F 5 "2.05" H 7300 4550 50  0001 L CNN "Height"
+F 6 "571-1-1734592-4" H 7300 4450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-1734592-4?qs=sXy4Dx%2FMQpPktHyHqGsNNQ%3D%3D" H 7300 4350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 7300 4250 50  0001 L CNN "Manufacturer_Name"
+F 9 "1-1734592-4" H 7300 4150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6550 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

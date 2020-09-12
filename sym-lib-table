@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name BQ24230RGTR)(type Legacy)(uri ${KIPRJMOD}/lib/BQ24230RGTR/BQ24230RGTR.lib)(options "")(descr ""))
+  (lib (name CMT-4023S-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/lib/CMT-4023S-SMT-TR/CMT-4023S-SMT-TR.lib)(options "")(descr ""))
+  (lib (name DRV2603RUNR)(type Legacy)(uri ${KIPRJMOD}/lib/DRV2603RUNR/DRV2603RUNR.lib)(options "")(descr ""))
+  (lib (name LC709203FQH-01TWG)(type Legacy)(uri ${KIPRJMOD}/lib/LC709203FQH-01TWG/LC709203FQH-01TWG.lib)(options "")(descr ""))
+  (lib (name TPS63030DSKR)(type Legacy)(uri ${KIPRJMOD}/lib/TPS63030DSKR/TPS63030DSKR.lib)(options "")(descr ""))
+  (lib (name USB_47346-0001)(type Legacy)(uri ${KIPRJMOD}/lib/USB_47346-0001/47346-0001.lib)(options "")(descr ""))
+  (lib (name Vibramotor)(type Legacy)(uri ${KIPRJMOD}/lib/Vibramotor.pretty/Vibramotor.lib)(options "")(descr ""))
+  (lib (name W25Q128JVPIQ)(type Legacy)(uri ${KIPRJMOD}/lib/W25Q128JVPIQ/W25Q128JVPIQ.lib)(options "")(descr ""))
+  (lib (name LPS3015-103MRB)(type Legacy)(uri ${KIPRJMOD}/lib/LPS3015-103MRB/LPS3015-103MRB.lib)(options "")(descr ""))
+  (lib (name 1-1734592-4)(type Legacy)(uri ${KIPRJMOD}/lib/1-1734592-4/1-1734592-4.lib)(options "")(descr ""))
+)
