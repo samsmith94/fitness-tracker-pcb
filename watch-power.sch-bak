@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L CMT-4023S-SMT-TR:CMT-4023S-SMT-TR LS1
 U 1 1 5F5A9B3D
-P 19700 5450
-F 0 "LS1" H 20328 5446 50  0000 L CNN
-F 1 "CMT-4023S-SMT-TR" H 20328 5355 50  0000 L CNN
-F 2 "CMT-4023S" H 20350 5550 50  0001 L CNN
-F 3 "http://www.cui.com/product/resource/cmt-4023s-smt.pdf" H 20350 5450 50  0001 L CNN
-F 4 "Speakers & Transducers Buzzer 4mm sq 4kHz 3V SMT" H 20350 5350 50  0001 L CNN "Description"
-F 5 "" H 20350 5250 50  0001 L CNN "Height"
-F 6 "490-CMT-4023S-SMT-TR" H 20350 5150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMT-4023S-SMT-TR?qs=qCxwlXJ4fnxjBoOShJwOAQ%3D%3D" H 20350 5050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "CUI Devices" H 20350 4950 50  0001 L CNN "Manufacturer_Name"
-F 9 "CMT-4023S-SMT-TR" H 20350 4850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    19700 5450
+P 21000 9600
+F 0 "LS1" H 21628 9596 50  0000 L CNN
+F 1 "CMT-4023S-SMT-TR" H 21628 9505 50  0000 L CNN
+F 2 "CMT-4023S" H 21650 9700 50  0001 L CNN
+F 3 "http://www.cui.com/product/resource/cmt-4023s-smt.pdf" H 21650 9600 50  0001 L CNN
+F 4 "Speakers & Transducers Buzzer 4mm sq 4kHz 3V SMT" H 21650 9500 50  0001 L CNN "Description"
+F 5 "" H 21650 9400 50  0001 L CNN "Height"
+F 6 "490-CMT-4023S-SMT-TR" H 21650 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMT-4023S-SMT-TR?qs=qCxwlXJ4fnxjBoOShJwOAQ%3D%3D" H 21650 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Devices" H 21650 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "CMT-4023S-SMT-TR" H 21650 9000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    21000 9600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1478,15 +1478,15 @@ $EndComp
 $Comp
 L Device:Buzzer BZ1
 U 1 1 5F9D1C90
-P 19900 5150
-F 0 "BZ1" H 20052 5179 50  0000 L CNN
-F 1 "Buzzer" H 20052 5088 50  0000 L CNN
-F 2 "" V 19875 5250 50  0001 C CNN
-F 3 "~" V 19875 5250 50  0001 C CNN
-	1    19900 5150
+P 21200 8850
+F 0 "BZ1" H 21352 8879 50  0000 L CNN
+F 1 "Buzzer" H 21352 8788 50  0000 L CNN
+F 2 "" V 21175 8950 50  0001 C CNN
+F 3 "~" V 21175 8950 50  0001 C CNN
+	1    21200 8850
 	1    0    0    -1  
 $EndComp
-Text Notes 19800 4950 0    50   ~ 0
+Text Notes 21100 8650 0    50   ~ 0
 legyen ilyen a buzzerem\ncsak sárga
 $Comp
 L 1-1734592-4:1-1734592-4 J2
@@ -2231,5 +2231,61 @@ Wire Wire Line
 Wire Wire Line
 	17500 10000 17500 9900
 Text Notes 14650 2350 0    50   ~ 0
-ide kell a bulk storage
+ehelyett kell a bulk storage
+$Comp
+L Transistor_BJT:BC847 Q?
+U 1 1 5F7738F3
+P 20900 10000
+F 0 "Q?" H 21091 10046 50  0000 L CNN
+F 1 "BC847" H 21091 9955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 21100 9925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 20900 10000 50  0001 L CNN
+	1    20900 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F774B1C
+P 20250 10000
+F 0 "R?" H 20320 10046 50  0000 L CNN
+F 1 "1k" H 20320 9955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 20180 10000 50  0001 C CNN
+F 3 "~" H 20250 10000 50  0001 C CNN
+	1    20250 10000
+	0    1    1    0   
+$EndComp
+Text GLabel 19900 10000 0    50   Input ~ 0
+BUZZER
+$Comp
+L power:GND #PWR?
+U 1 1 5F77A1E3
+P 21000 10500
+F 0 "#PWR?" H 21000 10250 50  0001 C CNN
+F 1 "GND" H 21005 10327 50  0000 C CNN
+F 2 "" H 21000 10500 50  0001 C CNN
+F 3 "" H 21000 10500 50  0001 C CNN
+	1    21000 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F77BCBE
+P 21000 9500
+F 0 "#PWR?" H 21000 9350 50  0001 C CNN
+F 1 "+3V3" H 21015 9673 50  0000 C CNN
+F 2 "" H 21000 9500 50  0001 C CNN
+F 3 "" H 21000 9500 50  0001 C CNN
+	1    21000 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21000 9600 21000 9500
+Wire Wire Line
+	21000 9700 21000 9800
+Wire Wire Line
+	21000 10200 21000 10500
+Wire Wire Line
+	20700 10000 20400 10000
+Wire Wire Line
+	19900 10000 20100 10000
 $EndSCHEMATC
