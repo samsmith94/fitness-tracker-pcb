@@ -1321,7 +1321,7 @@ Wire Wire Line
 	3050 13750 3050 13650
 Text Notes 10300 1250 0    50   ~ 0
 BATTERY vagy 3v3?
-Text Notes 16850 1150 0    50   ~ 0
+Text Notes 19300 700  0    50   ~ 0
 legyen szélesebb a szimbólum\n
 Text GLabel 9850 3950 0    50   Input ~ 0
 IMU_CS
@@ -1722,12 +1722,12 @@ Connection ~ 16000 1600
 $Comp
 L Device:C C26
 U 1 1 5F730623
-P 15150 2200
-F 0 "C26" H 15265 2246 50  0000 L CNN
-F 1 "10uF" H 15265 2155 50  0000 L CNN
-F 2 "" H 15188 2050 50  0001 C CNN
-F 3 "~" H 15150 2200 50  0001 C CNN
-	1    15150 2200
+P 15500 2250
+F 0 "C26" H 15615 2296 50  0000 L CNN
+F 1 "10uF" H 15615 2205 50  0000 L CNN
+F 2 "" H 15538 2100 50  0001 C CNN
+F 3 "~" H 15500 2250 50  0001 C CNN
+	1    15500 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2230,7 +2230,7 @@ Wire Wire Line
 	17500 9600 17500 9500
 Wire Wire Line
 	17500 10000 17500 9900
-Text Notes 14650 2350 0    50   ~ 0
+Text Notes 19200 3900 0    50   ~ 0
 ehelyett kell a bulk storage
 $Comp
 L Transistor_BJT:BC847 Q1
